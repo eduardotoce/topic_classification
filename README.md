@@ -4,15 +4,15 @@
     Run code in conda/create_env.sh
 
 #### Config project:
-    Marksource root the src folder
+    Marksource root the src folder or export the topic_classificacion/src to PYTHONPATH variable
 
-### To run the train pipeline 
-    Run entrypoint.py train 
+### To execute the train pipeline locate in src/ folder and run in terminal
+     entrypoint.py train 
 
-### To run the test pipeline 
-    Run entrypoint.py test 
+### To run the test pipeline locate in src/ folder and run in terminal 
+    entrypoint.py test 
 
-### To execute the Streamlit API
-    Run run_app.py
+### To execute the Streamlit API locate in src/ folder and run in terminal 
+    run_app.py
 
 It will open a web interface in you browser.
