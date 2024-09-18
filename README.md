@@ -1,22 +1,33 @@
 
-### Setting the project 
-#### Create conda env:
-    Run code in conda/create_env.sh
+## Project Setup
 
-#### Config project:
-Marksource root the src folder or export the topic_classificacion/src to PYTHONPATH variable. or (for linux) run in terminal
+### Create Conda Environment
+To set up the project environment, run the script located in conda/create_env.sh:
+
+    conda/create_env.sh
+
+### Config project:
+##### Option 1: Mark Source Root
+Mark the src/ folder as the source root in your development environment.
+
+#### Option 2: Set PYTHONPATH
+For Linux users, you can export the PYTHONPATH to include the src/ folder:
 
     export PYTHONPATH="${PYTHONPATH}:/{your-project-location-path}/topic_classification/src/"
 
- To execute the train pipeline locate in src/ folder and run in terminal
+#### Running the Pipelines
+##### Training Pipeline
+Navigate to the src/ folder and run the following command to execute the training pipeline:
 
     entrypoint.py train 
 
-To run the test pipeline locate in src/ folder and run in terminal 
+##### Testing Pipeline
+To run the testing pipeline, use this command:
 
     entrypoint.py test 
 
-To execute the Streamlit API locate in src/ folder and run in terminal 
+### Run the Streamlit API
+To start the Streamlit web interface, navigate to the src/ folder and run:
 
     run_app.py
 
