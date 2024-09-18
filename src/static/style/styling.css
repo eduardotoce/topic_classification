@@ -1,0 +1,72 @@
+/*!* Change color from superior part from Side Bar *!*/
+div[data-testid="stSidebarNav"] {
+    margin: 0px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    color: rgb(76, 76, 75);
+    background-color: rgb(230, 230, 230);
+}
+
+/*adding metric border*/
+div[data-testid="metric-container"] {
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #FEBE00;
+}
+
+/*center metric label*/
+[data-testid="stMetricLabel"]>div:nth-child(1) {
+    justify-content: center;
+}
+
+/*center metric value*/
+[data-testid="stMetricValue"]>div:nth-child(1) {
+    justify-content: center;
+}
+
+/* Make selectboxes white */
+div[data-baseweb="select"]>div {
+    background-color: white;
+}
+
+/* Make number inputs white */
+div.css-1qpudp6.e1jwn65y3 {
+    background-color: white;
+    border-color: #FEBE00;
+}
+
+div[data-baseweb="base-input"] {
+    background-color: white;
+}
+
+.css-55nu60 {
+    background-color: white;
+}
+
+
+/* Hide Streamlit Branding */
+#MainMenu {
+    visibility: hidden;
+}
+
+footer {
+    visibility: hidden;
+}
+
+header {
+    visibility: hidden;
+}
+
+#Maintablehedge {
+    visibility: hidden;
+}
+
+footer {
+    visibility: hidden;
+}
+
+header {
+    visibility: hidden;
+}
